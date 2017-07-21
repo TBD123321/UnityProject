@@ -133,10 +133,11 @@ public class spider01Movement : MonoBehaviour {
 
     private void DetectedPlayerForAttack() {
         UndetectedPlayerForMove();
+        detectedForAttack = true;
     }
 
     private void UndetectedPlayerForAttack() {
-        detectedForMove = true;
+        DetectedPlayerForMove();
         detectedForAttack = false;
     }
 
