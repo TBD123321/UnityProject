@@ -23,12 +23,14 @@ public class spider01Movement : MonoBehaviour {
 		if (detectedForMove) {
 			float step = speed * Time.deltaTime;
 			transform.position = Vector3.MoveTowards (transform.position, player.transform.position, step);
-			Vector2 slimePos = transform.position;
+			Vector2 spiderPos = transform.position;
 			Vector2 playerPos = player.transform.position;
-			CalculateAngleForAnim (slimePos, playerPos);
+			CalculateAngleForAnim (spiderPos, playerPos);
 		}
         if (detectedForAttack) {
-
+            Vector2 spiderPos = transform.position;
+            Vector2 playerPos = player.transform.position;
+            CalculateAngleForAnim(spiderPos, playerPos);
         }
 	}
 
