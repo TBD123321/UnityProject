@@ -25,16 +25,16 @@ public class spider01Movement : MonoBehaviour {
 			transform.position = Vector3.MoveTowards (transform.position, player.transform.position, step);
 			Vector2 spiderPos = transform.position;
 			Vector2 playerPos = player.transform.position;
-			CalculateAngleForAnim (spiderPos, playerPos);
+			CalculateAngleForAnimMove(spiderPos, playerPos);
 		}
         if (detectedForAttack) {
             Vector2 spiderPos = transform.position;
             Vector2 playerPos = player.transform.position;
-            CalculateAngleForAnim(spiderPos, playerPos);
+            CalculateAngleForAnimIdle(spiderPos, playerPos);
         }
 	}
 
-	private void CalculateAngleForAnim(Vector2 slimePos, Vector2 playerPos)
+	private void CalculateAngleForAnimMove(Vector2 slimePos, Vector2 playerPos)
 	{
 		float angleBetween = AngleBetweenVector2 (slimePos, playerPos);
 
@@ -66,34 +66,30 @@ public class spider01Movement : MonoBehaviour {
 		}
 	}
 
-	private void CalculateAngleForAnimIdle(Vector2 slimePos, Vector2 playerPos)
-	{
-		float angleBetween = AngleBetweenVector2 (slimePos, playerPos);
+    private void CalculateAngleForAnimIdle(Vector2 slimePos, Vector2 playerPos) {
+        float angleBetween = AngleBetweenVector2(slimePos, playerPos);
 
-		anim.ResetTrigger ("MoveLeft");
-		anim.ResetTrigger ("MoveDown");
-		anim.ResetTrigger ("MoveRight");
-		anim.ResetTrigger ("MoveUp");
+        if (angleBetween >= 45 && angleBetween < 135) {
+            anim.SetTrigger("IdleUp");
 
-		if (angleBetween >= 45 && angleBetween < 135)
-		{
-			anim.SetTrigger ("MoveUp");
-		}
-		else if (angleBetween >= 135 || angleBetween < -135)
-		{
-			anim.SetTrigger ("MoveLeft");
-		}
-		else if (angleBetween >= -135 && angleBetween < -45)
-		{
-			anim.SetTrigger ("MoveDown");
-		}
-		else if (angleBetween >= -45 && angleBetween < 45)
-		{
-			anim.SetTrigger ("MoveRight");
-		}
-	}
+            lastMove = LastMove.MoveUp;
+        }
+        else if (angleBetween >= 135 || angleBetween < -135) {
+            anim.SetTrigger("IdleLeft");
+            lastMove = LastMove.MoveLeft;
+        }
+        else if (angleBetween >= -135 && angleBetween < -45) {
+            anim.SetTrigger("IdleDown");
+            lastMove = LastMove.MoveDown;
+        }
+        else if (angleBetween >= -45 && angleBetween < 45) {
+            anim.SetTrigger("IdleRight");
+            lastMove = LastMove.MoveRight;
+        }
 
-	private float  AngleBetweenVector2(Vector2 vec1, Vector2 vec2)
+    }
+
+    private float  AngleBetweenVector2(Vector2 vec1, Vector2 vec2)
 	{
 		Vector2 diference = vec2 - vec1;
 		float sign = (vec2.y < vec1.y) ? -1.0f : 1.0f;
