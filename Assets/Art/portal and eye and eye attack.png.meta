@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 95a6d37b05bf65b46b0cad412e46f8c2
+timeCreated: 1499422277
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: portal and eye and eye attack_0
+    21300002: portal and eye and eye attack_1
+    21300004: portal and eye and eye attack_2
+    21300006: portal and eye and eye attack_3
+    21300008: portal and eye and eye attack_4
+    21300010: portal and eye and eye attack_5
+    21300012: portal and eye and eye attack_6
+    21300014: portal and eye and eye attack_7
+    21300016: portal and eye and eye attack_8
+    21300018: portal and eye and eye attack_9
+    21300020: portal and eye and eye attack_10
+    21300022: portal and eye and eye attack_11
+    21300024: portal and eye and eye attack_12
+    21300026: portal and eye and eye attack_13
+    21300028: portal and eye and eye attack_14
+    21300030: portal and eye and eye attack_15
+    21300032: portal and eye and eye attack_16
+    21300034: portal and eye and eye attack_17
+    21300036: portal and eye and eye attack_18
+    21300038: portal and eye and eye attack_19
+    21300040: portal and eye and eye attack_20
+    21300042: portal and eye and eye attack_21
+    21300044: portal and eye and eye attack_22
+    21300046: portal and eye and eye attack_23
+    21300048: portal and eye and eye attack_24
+    21300050: portal and eye and eye attack_25
+    21300052: portal and eye and eye attack_26
+    21300054: portal and eye and eye attack_27
+    21300056: portal and eye and eye attack_28
+    21300058: portal and eye and eye attack_29
+    21300060: portal and eye and eye attack_30
+    21300062: portal and eye and eye attack_31
+    21300064: portal and eye and eye attack_32
+    21300066: portal and eye and eye attack_33
+    21300068: portal and eye and eye attack_34
+    21300070: portal and eye and eye attack_35
+    21300072: portal and eye and eye attack_36
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: portal and eye and eye attack_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 657
+        width: 4
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 655
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 653
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 693
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 649
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 649
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 593
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 633
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 533
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 589
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 533
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 475
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 477
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 439
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 473
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 343
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 315
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 247
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 239
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 243
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 241
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 237
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_27
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 167
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 165
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 161
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 83
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_35
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: portal and eye and eye attack_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
