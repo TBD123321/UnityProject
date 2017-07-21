@@ -5,6 +5,7 @@ using UnityEngine;
 public class characterBullet_01 : MonoBehaviour {
      
 	public float bulletSpeed;
+    public float damage = 2;
 
 	[HideInInspector]
 	public Vector2 bulletDir;
@@ -29,5 +30,15 @@ public class characterBullet_01 : MonoBehaviour {
 	private void Event_Destroy(){
 		Destroy (gameObject);
 	}
-		
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            other.gameObject.SendMessage("Event_GetDamage",damage);
+        }
+    }
+
 }

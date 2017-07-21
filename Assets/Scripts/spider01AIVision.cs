@@ -21,14 +21,14 @@ public class spider01AIVision : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.CompareTag ("Player")) 
 		{
-			spider.SendMessage ("DetectedPlayer");
+			spider.SendMessage ("DetectedPlayerForMove");
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.CompareTag ("Player")) 
 		{
-			spider.SendMessage ("UndetectedPlayer");
+			spider.SendMessage ("UndetectedPlayerForMove");
 		}
 	}
 }
