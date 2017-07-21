@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class spider02Movement : MonoBehaviour {
 
+    public float health = 50;
 	public float speed;
 	public int damageFromExplosion;
 
@@ -21,6 +22,10 @@ public class spider02Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(health <= 0)
+        {
+            Event_Destroyed();
+        }
 		if (Detected && !found) {
 			anim.SetTrigger ("Move");
 			float step = speed * Time.deltaTime;
@@ -42,6 +47,11 @@ public class spider02Movement : MonoBehaviour {
 	{
 		Destroy (gameObject);
 	}
+
+    private void Event_GetDamage(int damage)
+    {
+        health -= damage;
+    }
 
 	void OnCollisionEnter2D(Collision2D other) {
 		
