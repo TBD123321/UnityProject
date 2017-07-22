@@ -9,6 +9,7 @@ public class spider01Movement : MonoBehaviour {
 	private bool detectedForMove, detectedForAttack, isMoving;
     private Vector2 move, lastMove;
 
+    public float health = 100;
 	public float speed;
 	public int spiderDamage;
 
@@ -19,6 +20,10 @@ public class spider01Movement : MonoBehaviour {
 	
 
 	void Update () {
+        if(health <= 0)
+        {
+            Destroy(gameObject);
+        }
 		if (detectedForMove) {
 			float step = speed * Time.deltaTime;
 			transform.position = Vector3.MoveTowards (transform.position, player.transform.position, step);
@@ -113,6 +118,11 @@ public class spider01Movement : MonoBehaviour {
     private void UndetectedPlayerForAttack() {
         DetectedPlayerForMove();
         detectedForAttack = false;
+    }
+
+    private void Event_GetDamage(int damage)
+    {
+        health -= damage;
     }
 
 
