@@ -10,6 +10,8 @@ public class spider01Movement : MonoBehaviour {
     private Vector2 move, lastMove;
     private bool canShoot = true;
 
+    public GameObject firePos;
+    public GameObject bullet;
     public float health = 100;
 	public float speed;
 	public int spiderDamage;
@@ -45,6 +47,11 @@ public class spider01Movement : MonoBehaviour {
             anim.SetFloat("MoveY", move.y);
             anim.SetFloat("LastMoveX", lastMove.x);
             anim.SetFloat("LastMoveY", lastMove.y);
+            if (canShoot)
+            {
+                firePos.transform.rotation = Quaternion.LookRotation(transform.forward, lastMove);
+                Instantiate(bullet, firePos.transform.position, firePos.transform.rotation);
+            }
         }
 	}
 
