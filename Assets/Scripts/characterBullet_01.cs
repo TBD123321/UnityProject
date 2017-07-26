@@ -12,11 +12,12 @@ public class characterBullet_01 : MonoBehaviour {
 
 	private bool destroyed = false;
 	private GameObject player;
-	private Animator animPlayer;
+	private Animator anim;
 
 	// Use this for initialization
 	void Start () {
-	bulletDir = new Vector2 (0,bulletSpeed*Time.deltaTime);
+	    bulletDir = new Vector2 (0,bulletSpeed*Time.deltaTime);
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -36,7 +37,9 @@ public class characterBullet_01 : MonoBehaviour {
 
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
+            destroyed = true;
+            gameObject.transform.Translate(new Vector3(0, 0, 0));
+            anim.SetTrigger("Destroy");
             other.gameObject.SendMessage("Event_GetDamage",damage);
         }
     }
