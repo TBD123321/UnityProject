@@ -32,10 +32,10 @@ public class characterBullet_01 : MonoBehaviour {
 		Destroy (gameObject);
 	}
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy"))
         {
             destroyed = true;
             gameObject.transform.Translate(new Vector3(0, 0, 0));

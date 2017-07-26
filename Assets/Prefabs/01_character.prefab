@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  maxBullets: 5
+  maxBullets: 3
   moveSpeed: 2
   attackSpeed: 1.4
   timeBetweenBullets: 0.1
