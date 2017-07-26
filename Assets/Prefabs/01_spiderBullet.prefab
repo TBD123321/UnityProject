@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212766131123373984}
   - component: {fileID: 61435058886973050}
   - component: {fileID: 114524544076115790}
+  - component: {fileID: 50503501260088838}
   m_Layer: 0
   m_Name: 01_spiderBullet
   m_TagString: 01_spiderBullet
@@ -42,6 +43,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50503501260088838
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951268575083536}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61435058886973050
 BoxCollider2D:
   m_ObjectHideFlags: 1
