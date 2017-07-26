@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 91fffd863faabe44b8ee95433d158949
-timeCreated: 1501080415
+timeCreated: 1501084331
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +30,32 @@ TextureImporter:
     21300046: house2_23
     21300048: house2_24
     21300050: house2_25
+    21300052: house3_0
+    21300054: house3_1
+    21300056: house3_2
+    21300058: house3_3
+    21300060: house3_4
+    21300062: house3_5
+    21300064: house3_6
+    21300066: house3_7
+    21300068: house3_8
+    21300070: house3_9
+    21300072: house3_10
+    21300074: house3_11
+    21300076: house3_12
+    21300078: house3_13
+    21300080: house3_14
+    21300082: house3_15
+    21300084: house3_16
+    21300086: house3_17
+    21300088: house3_18
+    21300090: house3_19
+    21300092: house3_20
+    21300094: house3_21
+    21300096: house3_22
+    21300098: house3_23
+    21300100: house3_24
+    21300102: house3_25
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -101,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: house2_0
+      name: house3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -109,13 +135,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_1
+      name: house3_1
       rect:
         serializedVersion: 2
         x: 460
@@ -123,13 +149,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_2
+      name: house3_2
       rect:
         serializedVersion: 2
         x: 920
@@ -137,13 +163,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_3
+      name: house3_3
       rect:
         serializedVersion: 2
         x: 1380
@@ -151,13 +177,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_4
+      name: house3_4
       rect:
         serializedVersion: 2
         x: 1840
@@ -165,13 +191,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_5
+      name: house3_5
       rect:
         serializedVersion: 2
         x: 2300
@@ -179,13 +205,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_6
+      name: house3_6
       rect:
         serializedVersion: 2
         x: 2760
@@ -193,13 +219,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_7
+      name: house3_7
       rect:
         serializedVersion: 2
         x: 3220
@@ -207,13 +233,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_8
+      name: house3_8
       rect:
         serializedVersion: 2
         x: 3680
@@ -221,13 +247,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_9
+      name: house3_9
       rect:
         serializedVersion: 2
         x: 4140
@@ -235,13 +261,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_10
+      name: house3_10
       rect:
         serializedVersion: 2
         x: 4600
@@ -249,13 +275,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_11
+      name: house3_11
       rect:
         serializedVersion: 2
         x: 5060
@@ -263,13 +289,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_12
+      name: house3_12
       rect:
         serializedVersion: 2
         x: 5520
@@ -277,13 +303,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_13
+      name: house3_13
       rect:
         serializedVersion: 2
         x: 0
@@ -291,13 +317,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_14
+      name: house3_14
       rect:
         serializedVersion: 2
         x: 460
@@ -305,13 +331,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_15
+      name: house3_15
       rect:
         serializedVersion: 2
         x: 920
@@ -319,13 +345,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_16
+      name: house3_16
       rect:
         serializedVersion: 2
         x: 1380
@@ -333,13 +359,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_17
+      name: house3_17
       rect:
         serializedVersion: 2
         x: 1840
@@ -347,13 +373,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_18
+      name: house3_18
       rect:
         serializedVersion: 2
         x: 2300
@@ -361,13 +387,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_19
+      name: house3_19
       rect:
         serializedVersion: 2
         x: 2760
@@ -375,13 +401,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_20
+      name: house3_20
       rect:
         serializedVersion: 2
         x: 3220
@@ -389,13 +415,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_21
+      name: house3_21
       rect:
         serializedVersion: 2
         x: 3680
@@ -403,13 +429,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_22
+      name: house3_22
       rect:
         serializedVersion: 2
         x: 4140
@@ -417,13 +443,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_23
+      name: house3_23
       rect:
         serializedVersion: 2
         x: 4600
@@ -431,13 +457,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_24
+      name: house3_24
       rect:
         serializedVersion: 2
         x: 5060
@@ -445,13 +471,13 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house2_25
+      name: house3_25
       rect:
         serializedVersion: 2
         x: 5520
@@ -459,7 +485,7 @@ TextureImporter:
         width: 460
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
