@@ -304,12 +304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  maxBullets: 5
+  maxBullets: 3
   moveSpeed: 2
   attackSpeed: 1.4
   timeBetweenBullets: 0.1
   firePos: {fileID: 1442958055630094}
-  bullet: {fileID: 114518357503291164, guid: 53e1b9f2b1dbf574b9ae041ee0190445, type: 2}
+  bullet: {fileID: 114397711446012070, guid: 853f17cf883906243ad824331c3e68e5, type: 2}
   healthBar: {fileID: 0}
 --- !u!212 &212972679754185384
 SpriteRenderer:

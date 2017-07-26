@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - 01_spiderBullet
+  - Cars
   layers:
   - Default
   - TransparentFX

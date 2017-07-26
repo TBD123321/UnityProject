@@ -28,14 +28,20 @@ public class spiderBullet_01 : MonoBehaviour {
         }
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+
+    void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Destroy(gameObject);
             other.gameObject.SendMessage("Event_Damaged", damage);
         }
+    }
+
+    private void Event_Destroy()
+    {
+        Destroy(gameObject);
     }
 
 }

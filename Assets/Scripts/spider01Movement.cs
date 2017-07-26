@@ -8,10 +8,14 @@ public class spider01Movement : MonoBehaviour {
 	private Animator anim;
 	private bool detectedForMove, detectedForAttack, isMoving;
     private Vector2 move, lastMove;
+    private bool canShoot = true;
 
+    public GameObject firePos;
+    public GameObject bullet;
     public float health = 100;
 	public float speed;
 	public int spiderDamage;
+    public float attackSpeed;
 
 	void Start () {
 		player = GameObject.FindGameObjectWithTag("Player");	
@@ -43,10 +47,24 @@ public class spider01Movement : MonoBehaviour {
             anim.SetFloat("MoveY", move.y);
             anim.SetFloat("LastMoveX", lastMove.x);
             anim.SetFloat("LastMoveY", lastMove.y);
+            if (canShoot)
+            {
+                firePos.transform.rotation = Quaternion.LookRotation(transform.forward, lastMove);
+                Instantiate(bullet, firePos.transform.position, firePos.transform.rotation);
+                StartCoroutine(CanShoot());
+            }
         }
 	}
 
-	private void CalculateAngleForAnimMove(Vector2 slimePos, Vector2 playerPos)
+    IEnumerator CanShoot()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(attackSpeed);
+        canShoot = true;
+    }
+
+
+    private void CalculateAngleForAnimMove(Vector2 slimePos, Vector2 playerPos)
 	{
 		float angleBetween = AngleBetweenVector2 (slimePos, playerPos);
 
