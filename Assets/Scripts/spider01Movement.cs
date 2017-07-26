@@ -8,10 +8,12 @@ public class spider01Movement : MonoBehaviour {
 	private Animator anim;
 	private bool detectedForMove, detectedForAttack, isMoving;
     private Vector2 move, lastMove;
+    private bool canShoot = true;
 
     public float health = 100;
 	public float speed;
 	public int spiderDamage;
+    public float attackSpeed;
 
 	void Start () {
 		player = GameObject.FindGameObjectWithTag("Player");	
@@ -46,7 +48,15 @@ public class spider01Movement : MonoBehaviour {
         }
 	}
 
-	private void CalculateAngleForAnimMove(Vector2 slimePos, Vector2 playerPos)
+    IEnumerator CanShoot()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(attackSpeed);
+        canShoot = true;
+    }
+
+
+    private void CalculateAngleForAnimMove(Vector2 slimePos, Vector2 playerPos)
 	{
 		float angleBetween = AngleBetweenVector2 (slimePos, playerPos);
 
