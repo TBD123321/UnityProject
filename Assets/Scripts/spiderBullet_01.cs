@@ -38,4 +38,9 @@ public class spiderBullet_01 : MonoBehaviour {
         }
     }
 
+    private void Event_Destroy()
+    {
+        Destroy(gameObject);
+    }
+
 }

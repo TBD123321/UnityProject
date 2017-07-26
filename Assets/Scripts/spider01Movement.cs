@@ -51,6 +51,7 @@ public class spider01Movement : MonoBehaviour {
             {
                 firePos.transform.rotation = Quaternion.LookRotation(transform.forward, lastMove);
                 Instantiate(bullet, firePos.transform.position, firePos.transform.rotation);
+                StartCoroutine(CanShoot());
             }
         }
 	}
