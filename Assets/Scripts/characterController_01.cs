@@ -14,7 +14,7 @@ public class characterController_01 : MonoBehaviour {
 	public characterBullet_01 bullet;
 	public Slider healthBar;
 
-	private Text healthText;
+    private Text healthText;
 	private int currentHealth;
     private Animator anim;
 	private bool canShoot = true;
@@ -109,27 +109,27 @@ public class characterController_01 : MonoBehaviour {
 	private void PlayerMovement(){
 		
 		if (Input.GetAxisRaw("Horizontal") > 0f ) {
-			transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-			anim.SetTrigger("01_characterMoving");
+            transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
+            anim.SetTrigger("01_characterMoving");
 			lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
 			return;
 		}
 		else if(Input.GetAxisRaw("Horizontal") < 0f) {
-			transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-			anim.SetTrigger("01_characterMoving");
+            transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
+            anim.SetTrigger("01_characterMoving");
 			lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
 			return;
 		}
 		 else if (Input.GetAxisRaw("Vertical") > 0f)
 		{
-			transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-			anim.SetTrigger("01_characterMoving");
+            transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
+            anim.SetTrigger("01_characterMoving");
 			lastMove = new Vector2(0, Input.GetAxisRaw("Vertical"));
 			return;
 		}
 		else if(Input.GetAxisRaw("Vertical") < 0f){
-			transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-			anim.SetTrigger("01_characterMoving");
+            transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
+            anim.SetTrigger("01_characterMoving");
 			lastMove = new Vector2(0, Input.GetAxisRaw("Vertical"));
 			return;
 		}
