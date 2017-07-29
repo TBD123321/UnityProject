@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 7
-  damage: 10
+  damage: 25
   bulletDir: {x: 0, y: 0}
 --- !u!212 &212716916420648790
 SpriteRenderer:
