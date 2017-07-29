@@ -18,7 +18,7 @@ public class spawnOneEnemy : MonoBehaviour {
 	void Update () {
         if (canSpawn)
         {
-            Instantiate(enemy);
+            Instantiate(enemy, gameObject.transform.position,gameObject.transform.rotation);
             StartCoroutine(CanSpawn());
         }
     }
