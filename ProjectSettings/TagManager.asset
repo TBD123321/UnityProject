@@ -8,6 +8,7 @@ TagManager:
   - 01_spiderBullet
   - Cars
   - 01_characterBullet
+  - Environment
   layers:
   - Default
   - TransparentFX
