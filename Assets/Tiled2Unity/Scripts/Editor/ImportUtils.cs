@@ -155,16 +155,16 @@ namespace Tiled2Unity
             return GetAttributeAsColor(elem, attrName);
         }
 
-        public static void ReadyToWrite(string path)
-        {
+        public static void ReadyToWrite(string path) {
             // Creates directories in path if they don't exist
             FileInfo info = new FileInfo(path);
             info.Directory.Create();
 
             // Make sure file is not readonly
-            if ((info.Attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
-            {
-                throw new UnityException(String.Format("{0} is read-only", path));
+            if (info.Exists) {
+                if ((info.Attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly) {
+                    throw new UnityException(String.Format("{0} is read-only", path));
+                }
             }
         }
 
