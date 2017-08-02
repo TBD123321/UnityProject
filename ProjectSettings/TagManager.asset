@@ -49,12 +49,12 @@ TagManager:
   - name: Effects
     uniqueID: 1443836111
     locked: 0
+  - name: Environment
+    uniqueID: 475983939
+    locked: 0
   - name: Player
     uniqueID: 84176573
     locked: 0
   - name: Enemy
     uniqueID: 624626785
-    locked: 0
-  - name: Environment
-    uniqueID: 475983939
     locked: 0
