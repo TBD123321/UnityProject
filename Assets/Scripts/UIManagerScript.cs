@@ -11,6 +11,8 @@ public class UIManagerScript : MonoBehaviour {
 
 	void Start()
 	{
+
+
 		RectTransform transform = contentPanelUp.gameObject.transform as RectTransform;        
 		Vector2 position = transform.anchoredPosition;
 		position.y -= transform.rect.height;
