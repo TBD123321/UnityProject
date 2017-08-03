@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: c1432c7ff630ccd4da588a2dda221fea
-timeCreated: 1501080440
+guid: c991e56314ad63f4e87164347fe5f79c
+timeCreated: 1501788922
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: house4_0
-    21300002: house4_1
-    21300004: house4_2
-    21300006: house4_3
-    21300008: house4_4
-    21300010: house4_5
+    21300000: crosswalk_1_0
+    21300002: crosswalk_1_1
+    21300004: crosswalk_1_2
+    21300006: crosswalk_1_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -81,85 +79,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: house4_0
+      name: crosswalk_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 500
-        width: 300
-        height: 500
+        width: 192
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house4_1
+      name: crosswalk_1_1
       rect:
         serializedVersion: 2
-        x: 300
+        x: 192
         y: 500
-        width: 300
-        height: 500
+        width: 192
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house4_2
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 500
-        width: 300
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: house4_3
+      name: crosswalk_1_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 300
-        height: 500
+        width: 192
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: house4_4
+      name: crosswalk_1_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 192
         y: 0
-        width: 300
-        height: 500
+        width: 192
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: house4_5
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 300
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
