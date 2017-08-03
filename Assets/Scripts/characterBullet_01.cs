@@ -42,6 +42,14 @@ public class characterBullet_01 : MonoBehaviour {
             anim.SetTrigger("Destroy");
             other.gameObject.SendMessage("Event_GetDamage",damage);
         }
+
+        if (other.CompareTag("Cars"))
+        {
+            destroyed = true;
+            gameObject.transform.Translate(new Vector3(0, 0, 0));
+            anim.SetTrigger("Destroy");
+            other.gameObject.SendMessage("Event_Damaged", damage);
+        }
     }
 
 }

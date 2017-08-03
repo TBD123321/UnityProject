@@ -37,6 +37,11 @@ public class spiderBullet_01 : MonoBehaviour {
             Destroy(gameObject);
             other.gameObject.SendMessage("Event_Damaged", damage);
         }
+        if (other.CompareTag("Cars"))
+        {
+            Destroy(gameObject);
+            other.gameObject.SendMessage("Event_Damaged", damage);
+        }
     }
 
     private void Event_Destroy()
